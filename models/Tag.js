@@ -15,13 +15,6 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING
-    },
-    price: {
-      type: DataTypes.DECIMAL,
-      allowNull: false,
-      Validate: {
-        isNumeric: true
-      }
     }
   },
   {
