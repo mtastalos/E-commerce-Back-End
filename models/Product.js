@@ -27,6 +27,14 @@ Product.init(
         isNumeric: true
       }
     },
+    price: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      defaultValue: 10,
+      Validate: {
+        isNumeric: true
+      }
+    },
     category_id: {
       type: DataTypes.INTEGER,
       references: {
